@@ -1,4 +1,4 @@
-ackage pl.wsb.fitnesstracker.healthmetrics.api;
+package pl.wsb.fitnesstracker.healthmetrics.api;
 
 import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
