@@ -19,6 +19,7 @@ public class Training {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(unique = true)
     private Long id;
 
     // FK do users.id

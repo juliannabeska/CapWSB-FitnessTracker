@@ -16,6 +16,7 @@ public class UserEvent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(unique = true)
     private Long id;
 
     // FK user_id → users.id
